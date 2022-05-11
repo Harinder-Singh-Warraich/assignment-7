@@ -17,7 +17,7 @@ btn.addEventListener("click",(e)=>{
     text.value="";
 });
 function getweather(input){
-    fetch(`http://api.openweathermap.org/data/2.5/weather?q=${input}&appid=cc7b365cdf72c6b1736b020dc6c87432`)
+    fetch(` your api`)
     .then((result)=>{
         return result.json()
     })
